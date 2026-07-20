@@ -17,14 +17,6 @@ export const menuItems = [
     foto: "https://images.unsplash.com/photo-1517701604599-bb29b565090c?q=80&w=800&auto=format&fit=crop"
   },
   {
-    id: 3,
-    nombre: "Oreo Frappé",
-    descripcion: "Espresso suave, leche fresca, cacao en polvo, sirope de vainilla, galletas oreo y nata montada (opcional).",
-    categoria: "CAFÉS FRÍOS",
-    subcategoria: "Clásicos",
-    foto: "https://images.unsplash.com/photo-1572490122747-3968b75cc699?q=80&w=800&auto=format&fit=crop"
-  },
-  {
     id: 4,
     nombre: "Oreo Cream Latte",
     descripcion: "Doble espresso, crema de oreo, leche fresca, galletas oreo, sirope de vainilla.",
