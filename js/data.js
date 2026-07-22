@@ -6,7 +6,7 @@ export const menuItems = [
     descripcion: "Crema de café batida, leche fresca y canela.",
     categoria: "CAFÉS FRÍOS",
     subcategoria: "Clásicos",
-    foto: "https://images.unsplash.com/photo-1594911774802-8822a707cbb3?q=80&w=800&auto=format&fit=crop"
+    foto: "images/dalgona-coffee.jpg"
   },
   {
     id: 2,
@@ -14,7 +14,7 @@ export const menuItems = [
     descripcion: "Doble espresso, leche condensada y leche fresca.",
     categoria: "CAFÉS FRÍOS",
     subcategoria: "Clásicos",
-    foto: "https://images.unsplash.com/photo-1517701604599-bb29b565090c?q=80&w=800&auto=format&fit=crop"
+    foto: "images/spanish-iced-latte.jpg"
   },
   {
     id: 4,
@@ -22,7 +22,7 @@ export const menuItems = [
     descripcion: "Doble espresso, crema de oreo, leche fresca, galletas oreo, sirope de vainilla.",
     categoria: "CAFÉS FRÍOS",
     subcategoria: "Clásicos",
-    foto: "https://images.unsplash.com/photo-1541658016709-82535e94bc69?q=80&w=800&auto=format&fit=crop"
+    foto: "images/oreo-cream-latte.png"
   },
   {
     id: 5,
@@ -30,7 +30,7 @@ export const menuItems = [
     descripcion: "Doble espresso, leche fresca, sirope de chocolate blanco, cold foam de oreo.",
     categoria: "CAFÉS FRÍOS",
     subcategoria: "Clásicos",
-    foto: "https://images.unsplash.com/photo-1534778101976-62847782c213?q=80&w=800&auto=format&fit=crop"
+    foto: "images/oreo-white-mocha.png"
   },
   {
     id: 6,
@@ -38,7 +38,7 @@ export const menuItems = [
     descripcion: "Espresso suave, agua, sirope de vainilla y vanilla cold foam.",
     categoria: "CAFÉS FRÍOS",
     subcategoria: "Clásicos",
-    foto: "https://images.unsplash.com/photo-1461023058943-07fcbe16d735?q=80&w=800&auto=format&fit=crop"
+    foto: "images/salted-vanilla-iced-coffee.jpg"
   },
   {
     id: 7,
@@ -46,7 +46,7 @@ export const menuItems = [
     descripcion: "Espresso suave, leche fresca, sirope de chocolate y caramelo.",
     categoria: "CAFÉS FRÍOS",
     subcategoria: "Clásicos",
-    foto: "https://images.unsplash.com/photo-1579306193798-2247e12c6a4a?q=80&w=800&auto=format&fit=crop"
+    foto: "images/salted-caramel-iced-mocha.jpg"
   },
   {
     id: 8,
@@ -54,7 +54,7 @@ export const menuItems = [
     descripcion: "Doble espresso, leche fresca, canela, cacao en polvo y cold foam.",
     categoria: "CAFÉS FRÍOS",
     subcategoria: "Clásicos",
-    foto: "https://images.unsplash.com/photo-1498804103079-a6351b050096?q=80&w=800&auto=format&fit=crop"
+    foto: "images/cinnamon-mocha-iced-latte.png"
   },
   {
     id: 9,
@@ -62,7 +62,7 @@ export const menuItems = [
     descripcion: "Espresso suave, leche fresca y honey cream.",
     categoria: "CAFÉS FRÍOS",
     subcategoria: "Clásicos",
-    foto: "https://images.unsplash.com/photo-1553909489-cd47e0907980?q=80&w=800&auto=format&fit=crop"
+    foto: "images/cinnamon-honey-latte.png"
   },
   {
     id: 10,
@@ -70,7 +70,7 @@ export const menuItems = [
     descripcion: "Espresso suave, leche fresca y sirope de chocolate blanco.",
     categoria: "CAFÉS FRÍOS",
     subcategoria: "Clásicos",
-    foto: "https://images.unsplash.com/photo-1557006021-b85abd195b65?q=80&w=800&auto=format&fit=crop"
+    foto: "images/white-mocha-latte.png"
   },
   {
     id: 11,
@@ -78,7 +78,7 @@ export const menuItems = [
     descripcion: "Crema de café con sirope de miel y leche fresca.",
     categoria: "CAFÉS FRÍOS",
     subcategoria: "Clásicos",
-    foto: "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?q=80&w=800&auto=format&fit=crop"
+    foto: "images/honey-cream-coffee.png"
   },
   {
     id: 12,
@@ -86,7 +86,7 @@ export const menuItems = [
     descripcion: "Doble espresso, leche fresca, sirope de vainilla, y sirope de caramelo.",
     categoria: "CAFÉS FRÍOS",
     subcategoria: "Clásicos",
-    foto: "https://images.unsplash.com/photo-1485808191679-5f86510681a2?q=80&w=800&auto=format&fit=crop"
+    foto: "images/iced-caramel-macchiato.png"
   },
   {
     id: 13,
@@ -94,7 +94,7 @@ export const menuItems = [
     descripcion: "Espresso suave, leche fresca, crema de cacahuete, y miel.",
     categoria: "CAFÉS FRÍOS",
     subcategoria: "Clásicos",
-    foto: "https://images.unsplash.com/photo-1578314675249-a6910f80cc4e?q=80&w=800&auto=format&fit=crop"
+    foto: "images/peanut-butter-iced-latte.png"
   },
   {
     id: 14,
@@ -102,7 +102,7 @@ export const menuItems = [
     descripcion: "Doble espresso, leche fresca, crema espumada de vainilla, y una fina capa caramelizada.",
     categoria: "CAFÉS FRÍOS",
     subcategoria: "Clásicos",
-    foto: "https://images.unsplash.com/photo-1507133750040-4a8f57021571?q=80&w=800&auto=format&fit=crop"
+    foto: "images/vanilla-brulee-latte.png"
   },
 
   // CAFÉS FRÍOS - Exóticos
@@ -112,7 +112,7 @@ export const menuItems = [
     descripcion: "Doble espresso, leche fresca, fresas, caramelo y cold foam.",
     categoria: "CAFÉS FRÍOS",
     subcategoria: "Exóticos",
-    foto: "https://images.unsplash.com/photo-1596649714492-a9f973b627e4?q=80&w=800&auto=format&fit=crop"
+    foto: "images/strawberry-iced-latte.png"
   },
   {
     id: 16,
@@ -120,7 +120,7 @@ export const menuItems = [
     descripcion: "Doble espresso, leche fresca, plátano, miel, canela y agua.",
     categoria: "CAFÉS FRÍOS",
     subcategoria: "Exóticos",
-    foto: "https://images.unsplash.com/photo-1541167760496-1628856ab772?q=80&w=800&auto=format&fit=crop"
+    foto: "images/banana-cream-iced-coffee.png"
   },
   {
     id: 17,
@@ -128,7 +128,7 @@ export const menuItems = [
     descripcion: "Doble espresso y zumo de naranja.",
     categoria: "CAFÉS FRÍOS",
     subcategoria: "Exóticos",
-    foto: "https://images.unsplash.com/photo-1620360262594-efe6342e4785?q=80&w=800&auto=format&fit=crop"
+    foto: "images/orange-coffee.png"
   },
   {
     id: 18,
@@ -136,7 +136,7 @@ export const menuItems = [
     descripcion: "Espresso suave, agua tónica, y una tira de naranja.",
     categoria: "CAFÉS FRÍOS",
     subcategoria: "Exóticos",
-    foto: "https://images.unsplash.com/photo-1513530534585-c7b1394c6d51?q=80&w=800&auto=format&fit=crop"
+    foto: "images/espresso-tonic.png"
   },
   {
     id: 19,
@@ -144,7 +144,7 @@ export const menuItems = [
     descripcion: "Doble espresso pasado por una rodaja de limon y un poco de sal y agua tónica.",
     categoria: "CAFÉS FRÍOS",
     subcategoria: "Exóticos",
-    foto: "https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?q=80&w=800&auto=format&fit=crop"
+    foto: "images/espresso-bomb.png"
   },
   {
     id: 20,
@@ -152,7 +152,7 @@ export const menuItems = [
     descripcion: "Crema de café y cacao en polvo.",
     categoria: "CAFÉS FRÍOS",
     subcategoria: "Exóticos",
-    foto: "https://images.unsplash.com/photo-1518057111178-44a106bad636?q=80&w=800&auto=format&fit=crop"
+    foto: "images/crema-de-cafe-italiana.png"
   },
 
   // CAFÉS CALIENTES
@@ -161,65 +161,65 @@ export const menuItems = [
     nombre: "Café Bombón",
     descripcion: "Espresso suave, leche condensada y un toque de leche espumada.",
     categoria: "CAFÉS CALIENTES",
-    foto: "https://images.unsplash.com/photo-1606791405792-1004f1718d0c?q=80&w=800&auto=format&fit=crop"
+    foto: "images/cafe-bombon.png"
   },
   {
     id: 22,
     nombre: "Café con leche",
     descripcion: "Espresso suave y leche. (Hielo opcional)",
     categoria: "CAFÉS CALIENTES",
-    foto: "https://images.unsplash.com/photo-1544787219-7f47ccb76574?q=80&w=800&auto=format&fit=crop"
+    foto: "images/cappuccino.png"
   },
   {
     id: 23,
     nombre: "Americano",
     descripcion: "Espresso suave y agua caliente.",
     categoria: "CAFÉS CALIENTES",
-    foto: "https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?q=80&w=800&auto=format&fit=crop"
+    foto: "images/americano.png"
   },
   {
     id: 24,
     nombre: "Mocha",
     descripcion: "Café con chocolate (leche, blanco, negro), leche y espuma.",
     categoria: "CAFÉS CALIENTES",
-    foto: "https://images.unsplash.com/photo-1578314675249-a6910f80cc4e?q=80&w=800&auto=format&fit=crop"
+    foto: "images/mocha.png"
   },
   {
     id: 25,
     nombre: "Cappuccino",
     descripcion: "Espresso suave, leche, y abundante espuma.",
     categoria: "CAFÉS CALIENTES",
-    foto: "https://images.unsplash.com/photo-1534778101976-62847782c213?q=80&w=800&auto=format&fit=crop"
+    foto: "images/cappuccino.png"
   },
   {
     id: 26,
     nombre: "Café Marocchino",
     descripcion: "Espresso suave, leche espumada, crema de cacao y cacao en polvo.",
     categoria: "CAFÉS CALIENTES",
-    foto: "https://images.unsplash.com/photo-1585445490387-f47934b73b54?q=80&w=800&auto=format&fit=crop"
+    foto: "images/cafe marocchino.png"
   },
 
   // OTRAS BEBIDAS
   {
     id: 27,
     nombre: "Matcha Latte",
-    descripcion: "Matcha premium con leche caliente, leche fresca, miel, vainilla y caramelo.",
+    descripcion: "Matcha con leche caliente, leche fresca, miel, vainilla y caramelo.",
     categoria: "OTRAS BEBIDAS",
-    foto: "https://images.unsplash.com/photo-1536256263959-770b48d82b0a?q=80&w=800&auto=format&fit=crop"
+    foto: "images/matcha-latte.png"
   },
   {
     id: 28,
     nombre: "Frappé Especial",
     descripcion: "Frappé helado a elegir entre sabor Chocolate (negro/blanco/leche), kinder, Lotus o vainilla.",
     categoria: "OTRAS BEBIDAS",
-    foto: "https://images.unsplash.com/photo-1471691118458-a8859c8e8864?q=80&w=800&auto=format&fit=crop"
+    foto: "images/frappe-especial.png"
   },
   {
     id: 29,
-    nombre: "Milkshake Gourmet",
+    nombre: "Milkshakes",
     descripcion: "Batido cremoso con sabores a elegir: Vainilla, chocolate (negro/blanco/leche), oreo, caramelo, nocilla o lotus.",
     categoria: "OTRAS BEBIDAS",
-    foto: "https://images.unsplash.com/photo-1579954115545-a95591f28bfc?q=80&w=800&auto=format&fit=crop"
+    foto: "images/milkshake.png"
   },
 
   // APERITIVOS
@@ -228,34 +228,36 @@ export const menuItems = [
     nombre: "Sándwich Mixto",
     descripcion: "Queso fundido, jamón york de primera calidad y mantequilla dorada al grill.",
     categoria: "APERITIVOS",
-    foto: "https://images.unsplash.com/photo-1528735602780-2552fd46c7af?q=80&w=800&auto=format&fit=crop"
+    foto: "images/sandwich-mixto.png"
   },
   {
     id: 31,
     nombre: "Croissant Mixto",
     descripcion: "Croissant de mantequilla relleno de queso fundido y jamón york.",
     categoria: "APERITIVOS",
-    foto: "https://images.unsplash.com/photo-1555507036-ab1f4038808a?q=80&w=800&auto=format&fit=crop"
+    foto: "images/croissant-mixto.png"
   },
   {
     id: 32,
     nombre: "Tosta de Jamón y Tomate",
     descripcion: "Pan rústico tostado, jamón ibérico, tomate triturado (opcional) y aceite de oliva virgen extra.",
     categoria: "APERITIVOS",
-    foto: "https://images.unsplash.com/photo-1533089860892-a7c6f0a88666?q=80&w=800&auto=format&fit=crop"
+    foto: "images/tosta-de-jamon-y-tomate.png"
   },
   {
     id: 33,
     nombre: "Tabla Variada",
     descripcion: "Selección de quesos curados, fuet, lomo embuchado y almendras tostadas.",
     categoria: "APERITIVOS",
-    foto: "https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?q=80&w=800&auto=format&fit=crop"
+    foto: "images/tabla-variada.png"
   },
   {
     id: 34,
     nombre: "Bizcocho Casero",
     descripcion: "Delicioso bizcocho artesano del día, esponjoso y aromático.",
     categoria: "APERITIVOS",
-    foto: "https://images.unsplash.com/photo-1607958996333-41aef7caefaa?q=80&w=800&auto=format&fit=crop"
+    foto: "images/bizcocho-casero.png"
+  }
+];s://images.unsplash.com/photo-1607958996333-41aef7caefaa?q=80&w=800&auto=format&fit=crop"
   }
 ];

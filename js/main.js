@@ -20,7 +20,7 @@ const resetSearchBtn = document.getElementById('reset-search-btn');
 function matchesCategoryFilter(itemCategory, filterValue) {
   if (filterValue === 'ALL') return true;
   if (filterValue === 'OTROS') return itemCategory === 'OTRAS BEBIDAS';
-  if (filterValue === 'APERITIFS') return itemCategory === 'APERITIVOS';
+  if (filterValue === 'APERITIVOS') return itemCategory === 'APERITIVOS';
   return itemCategory === filterValue;
 }
 
@@ -35,7 +35,7 @@ function getCategoryDisplayTitle(filterValue) {
       return 'Cafés Calientes';
     case 'OTROS':
       return 'Otras Bebidas';
-    case 'APERITIFS':
+    case 'APERITIVOS':
       return 'Aperitivos';
     default:
       return filterValue;
@@ -72,7 +72,7 @@ function renderMenu() {
   // 4. Render product cards
   filteredItems.forEach(item => {
     const card = document.createElement('div');
-    card.className = 'group bg-white rounded-2xl shadow-sm border border-stone-200/50 overflow-hidden flex flex-col transition-all duration-300 hover:shadow-md hover:-translate-y-0.5 active:scale-[0.98]';
+    card.className = 'group bg-white rounded-2xl shadow-sm border border-stone-200/50 overflow-hidden flex flex-col transition-all duration-300 hover:shadow-md hover:-translate-y-0.5 active:scale-[0.98] cursor-pointer';
     
     // Subcategory badge logic
     const badgeHtml = item.subcategoria 
@@ -102,6 +102,10 @@ function renderMenu() {
         </div>
       </div>
     `;
+
+    card.addEventListener('click', () => {
+      openModal(item);
+    });
 
     menuContainer.appendChild(card);
   });
@@ -177,4 +181,42 @@ resetSearchBtn.addEventListener('click', () => {
 // --- Initial Render ---
 document.addEventListener('DOMContentLoaded', () => {
   renderMenu();
+});
+
+// --- Modal Functionality ---
+const modal = document.getElementById('product-modal');
+const modalContent = document.getElementById('modal-content');
+const modalImage = document.getElementById('modal-image');
+const modalTitle = document.getElementById('modal-title');
+const modalCategory = document.getElementById('modal-category');
+const modalDescription = document.getElementById('modal-description');
+const modalCloseBtnTop = document.getElementById('modal-close-btn-top');
+const modalCloseBtnBottom = document.getElementById('modal-close-btn-bottom');
+
+function openModal(item) {
+  modalImage.src = item.foto;
+  modalImage.alt = item.nombre;
+  modalTitle.textContent = item.nombre;
+  modalCategory.textContent = item.categoria === 'OTRAS BEBIDAS' ? 'Otros' : item.categoria.toLowerCase();
+  modalDescription.textContent = item.descripcion;
+
+  modal.classList.remove('opacity-0', 'pointer-events-none');
+  modalContent.classList.remove('scale-95');
+  modalContent.classList.add('scale-100');
+  document.body.classList.add('overflow-hidden');
+}
+
+function closeModal() {
+  modal.classList.add('opacity-0', 'pointer-events-none');
+  modalContent.classList.remove('scale-100');
+  modalContent.classList.add('scale-95');
+  document.body.classList.remove('overflow-hidden');
+}
+
+modalCloseBtnTop.addEventListener('click', closeModal);
+modalCloseBtnBottom.addEventListener('click', closeModal);
+modal.addEventListener('click', (e) => {
+  if (e.target === modal) {
+    closeModal();
+  }
 });
