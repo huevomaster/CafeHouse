@@ -90,9 +90,14 @@ function renderMenu() {
         >
       </div>
       <div class="p-3.5 flex flex-col flex-grow">
-        <h3 class="font-serif text-sm font-bold text-stone-900 line-clamp-1 group-hover:text-amber-800 transition-colors">
-          ${item.nombre}
-        </h3>
+        <div class="flex justify-between items-start gap-2">
+          <h3 class="font-serif text-sm font-bold text-stone-900 line-clamp-1 group-hover:text-amber-800 transition-colors">
+            ${item.nombre}
+          </h3>
+          <span class="text-xs font-bold text-amber-900 shrink-0">
+            ${item.precio.toFixed(2)}€
+          </span>
+        </div>
         <p class="text-[11px] text-stone-500 line-clamp-2 mt-1 leading-relaxed flex-grow">
           ${item.descripcion}
         </p>
@@ -189,6 +194,7 @@ const modalContent = document.getElementById('modal-content');
 const modalImage = document.getElementById('modal-image');
 const modalTitle = document.getElementById('modal-title');
 const modalCategory = document.getElementById('modal-category');
+const modalPrice = document.getElementById('modal-price');
 const modalDescription = document.getElementById('modal-description');
 const modalCloseBtnTop = document.getElementById('modal-close-btn-top');
 const modalCloseBtnBottom = document.getElementById('modal-close-btn-bottom');
@@ -198,6 +204,7 @@ function openModal(item) {
   modalImage.alt = item.nombre;
   modalTitle.textContent = item.nombre;
   modalCategory.textContent = item.categoria === 'OTRAS BEBIDAS' ? 'Otros' : item.categoria.toLowerCase();
+  modalPrice.textContent = `${item.precio.toFixed(2)}€`;
   modalDescription.textContent = item.descripcion;
 
   modal.classList.remove('opacity-0', 'pointer-events-none');
