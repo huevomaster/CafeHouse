@@ -6,7 +6,7 @@ export const menuItems = [
     descripcion: "Crema de café batida, leche fresca y canela.",
     categoria: "CAFÉS FRÍOS",
     subcategoria: "Clásicos",
-    foto: "images/dalgona-coffee.jpg",
+    foto: "images/dalgona-coffee.png",
   },
   {
     id: 2,
@@ -14,7 +14,7 @@ export const menuItems = [
     descripcion: "Doble espresso, leche condensada y leche fresca.",
     categoria: "CAFÉS FRÍOS",
     subcategoria: "Clásicos",
-    foto: "images/spanish-iced-latte.jpg",
+    foto: "images/spanish-iced-latte.png",
   },
   {
     id: 4,
@@ -38,7 +38,7 @@ export const menuItems = [
     descripcion: "Espresso suave, agua, sirope de vainilla y vanilla cold foam.",
     categoria: "CAFÉS FRÍOS",
     subcategoria: "Clásicos",
-    foto: "images/salted-vanilla-iced-coffee.jpg",
+    foto: "images/salted-vanilla-iced-coffee.png",
   },
   {
     id: 7,
@@ -46,7 +46,7 @@ export const menuItems = [
     descripcion: "Espresso suave, leche fresca, sirope de chocolate y caramelo.",
     categoria: "CAFÉS FRÍOS",
     subcategoria: "Clásicos",
-    foto: "images/salted-caramel-iced-mocha.jpg",
+    foto: "images/salted-caramel-iced-mocha.png",
   },
   {
     id: 8,
@@ -196,7 +196,7 @@ export const menuItems = [
     nombre: "Café Marocchino",
     descripcion: "Espresso suave, leche espumada, crema de cacao y cacao en polvo.",
     categoria: "CAFÉS CALIENTES",
-    foto: "images/cafe marocchino.png",
+    foto: "images/cafe-marocchino.png",
   },
 
   // OTRAS BEBIDAS
