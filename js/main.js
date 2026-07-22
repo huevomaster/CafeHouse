@@ -83,7 +83,7 @@ function renderMenu() {
       <div class="aspect-[4/3] w-full overflow-hidden bg-stone-100 relative">
         ${badgeHtml}
         <img 
-          src="${item.foto}" 
+          src="${item.foto}?v=2" 
           alt="${item.nombre}" 
           class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
           loading="lazy"
@@ -193,7 +193,7 @@ const modalDescription = document.getElementById('modal-description');
 const modalCloseBtnBottom = document.getElementById('modal-close-btn-bottom');
 
 function openModal(item) {
-  modalImage.src = item.foto;
+  modalImage.src = item.foto + '?v=2';
   modalImage.alt = item.nombre;
   modalTitle.textContent = item.nombre;
   modalCategory.textContent = item.categoria === 'OTRAS BEBIDAS' ? 'Otros' : item.categoria.toLowerCase();
