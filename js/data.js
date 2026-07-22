@@ -168,7 +168,7 @@ export const menuItems = [
     nombre: "Café con leche",
     descripcion: "Espresso suave y leche. (Hielo opcional)",
     categoria: "CAFÉS CALIENTES",
-    foto: "images/cappuccino.png",
+    foto: "images/cafe-con-leche.png",
   },
   {
     id: 23,
