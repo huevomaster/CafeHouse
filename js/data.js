@@ -245,13 +245,6 @@ export const menuItems = [
     foto: "images/tosta-de-jamon-y-tomate.png",
   },
   {
-    id: 33,
-    nombre: "Tabla Variada",
-    descripcion: "Selección de quesos curados, fuet, lomo embuchado y almendras tostadas.",
-    categoria: "APERITIVOS",
-    foto: "images/tabla-variada.png",
-  },
-  {
     id: 34,
     nombre: "Bizcocho Casero",
     descripcion: "Delicioso bizcocho artesano del día, esponjoso y aromático.",
