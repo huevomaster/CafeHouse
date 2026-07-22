@@ -190,7 +190,6 @@ const modalImage = document.getElementById('modal-image');
 const modalTitle = document.getElementById('modal-title');
 const modalCategory = document.getElementById('modal-category');
 const modalDescription = document.getElementById('modal-description');
-const modalCloseBtnTop = document.getElementById('modal-close-btn-top');
 const modalCloseBtnBottom = document.getElementById('modal-close-btn-bottom');
 
 function openModal(item) {
@@ -213,7 +212,6 @@ function closeModal() {
   document.body.classList.remove('overflow-hidden');
 }
 
-modalCloseBtnTop.addEventListener('click', closeModal);
 modalCloseBtnBottom.addEventListener('click', closeModal);
 modal.addEventListener('click', (e) => {
   if (e.target === modal) {
