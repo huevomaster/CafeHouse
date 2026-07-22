@@ -6,7 +6,7 @@ export const menuItems = [
     descripcion: "Crema de café batida, leche fresca y canela.",
     categoria: "CAFÉS FRÍOS",
     subcategoria: "Clásicos",
-    foto: "CafeHouse/images/dalgona-coffee.jpg",
+    foto: "images/dalgona-coffee.jpg",
   },
   {
     id: 2,
@@ -14,7 +14,7 @@ export const menuItems = [
     descripcion: "Doble espresso, leche condensada y leche fresca.",
     categoria: "CAFÉS FRÍOS",
     subcategoria: "Clásicos",
-    foto: "CafeHouse/images/spanish-iced-latte.jpg",
+    foto: "images/spanish-iced-latte.jpg",
   },
   {
     id: 4,
@@ -22,7 +22,7 @@ export const menuItems = [
     descripcion: "Doble espresso, crema de oreo, leche fresca, galletas oreo, sirope de vainilla.",
     categoria: "CAFÉS FRÍOS",
     subcategoria: "Clásicos",
-    foto: "CafeHouse/images/oreo-cream-latte.png",
+    foto: "images/oreo-cream-latte.png",
   },
   {
     id: 5,
@@ -30,7 +30,7 @@ export const menuItems = [
     descripcion: "Doble espresso, leche fresca, sirope de chocolate blanco, cold foam de oreo.",
     categoria: "CAFÉS FRÍOS",
     subcategoria: "Clásicos",
-    foto: "CafeHouse/images/oreo-white-mocha.png",
+    foto: "images/oreo-white-mocha.png",
   },
   {
     id: 6,
@@ -38,7 +38,7 @@ export const menuItems = [
     descripcion: "Espresso suave, agua, sirope de vainilla y vanilla cold foam.",
     categoria: "CAFÉS FRÍOS",
     subcategoria: "Clásicos",
-    foto: "CafeHouse/images/salted-vanilla-iced-coffee.jpg",
+    foto: "images/salted-vanilla-iced-coffee.jpg",
   },
   {
     id: 7,
@@ -46,7 +46,7 @@ export const menuItems = [
     descripcion: "Espresso suave, leche fresca, sirope de chocolate y caramelo.",
     categoria: "CAFÉS FRÍOS",
     subcategoria: "Clásicos",
-    foto: "CafeHouse/images/salted-caramel-iced-mocha.jpg",
+    foto: "images/salted-caramel-iced-mocha.jpg",
   },
   {
     id: 8,
@@ -54,7 +54,7 @@ export const menuItems = [
     descripcion: "Doble espresso, leche fresca, canela, cacao en polvo y cold foam.",
     categoria: "CAFÉS FRÍOS",
     subcategoria: "Clásicos",
-    foto: "CafeHouse/images/cinnamon-mocha-iced-latte.png",
+    foto: "images/cinnamon-mocha-iced-latte.png",
   },
   {
     id: 9,
@@ -62,7 +62,7 @@ export const menuItems = [
     descripcion: "Espresso suave, leche fresca y honey cream.",
     categoria: "CAFÉS FRÍOS",
     subcategoria: "Clásicos",
-    foto: "CafeHouse/images/cinnamon-honey-latte.png",
+    foto: "images/cinnamon-honey-latte.png",
   },
   {
     id: 10,
@@ -70,7 +70,7 @@ export const menuItems = [
     descripcion: "Espresso suave, leche fresca y sirope de chocolate blanco.",
     categoria: "CAFÉS FRÍOS",
     subcategoria: "Clásicos",
-    foto: "CafeHouse/images/white-mocha-latte.png",
+    foto: "images/white-mocha-latte.png",
   },
   {
     id: 11,
@@ -78,7 +78,7 @@ export const menuItems = [
     descripcion: "Crema de café con sirope de miel y leche fresca.",
     categoria: "CAFÉS FRÍOS",
     subcategoria: "Clásicos",
-    foto: "CafeHouse/images/honey-cream-coffee.png",
+    foto: "images/honey-cream-coffee.png",
   },
   {
     id: 12,
@@ -86,7 +86,7 @@ export const menuItems = [
     descripcion: "Doble espresso, leche fresca, sirope de vainilla, y sirope de caramelo.",
     categoria: "CAFÉS FRÍOS",
     subcategoria: "Clásicos",
-    foto: "CafeHouse/images/iced-caramel-macchiato.png",
+    foto: "images/iced-caramel-macchiato.png",
   },
   {
     id: 13,
@@ -94,7 +94,7 @@ export const menuItems = [
     descripcion: "Espresso suave, leche fresca, crema de cacahuete, y miel.",
     categoria: "CAFÉS FRÍOS",
     subcategoria: "Clásicos",
-    foto: "CafeHouse/images/peanut-butter-iced-latte.png",
+    foto: "images/peanut-butter-iced-latte.png",
   },
   {
     id: 14,
@@ -102,7 +102,7 @@ export const menuItems = [
     descripcion: "Doble espresso, leche fresca, crema espumada de vainilla, y una fina capa caramelizada.",
     categoria: "CAFÉS FRÍOS",
     subcategoria: "Clásicos",
-    foto: "CafeHouse/images/vanilla-brulee-latte.png",
+    foto: "images/vanilla-brulee-latte.png",
   },
 
   // CAFÉS FRÍOS - Exóticos
@@ -112,7 +112,7 @@ export const menuItems = [
     descripcion: "Doble espresso, leche fresca, fresas, caramelo y cold foam.",
     categoria: "CAFÉS FRÍOS",
     subcategoria: "Exóticos",
-    foto: "CafeHouse/images/strawberry-iced-latte.png",
+    foto: "images/strawberry-iced-latte.png",
   },
   {
     id: 16,
@@ -120,7 +120,7 @@ export const menuItems = [
     descripcion: "Doble espresso, leche fresca, plátano, miel, canela y agua.",
     categoria: "CAFÉS FRÍOS",
     subcategoria: "Exóticos",
-    foto: "CafeHouse/images/banana-cream-iced-coffee.png",
+    foto: "images/banana-cream-iced-coffee.png",
   },
   {
     id: 17,
@@ -128,7 +128,7 @@ export const menuItems = [
     descripcion: "Doble espresso y zumo de naranja.",
     categoria: "CAFÉS FRÍOS",
     subcategoria: "Exóticos",
-    foto: "CafeHouse/images/orange-coffee.png",
+    foto: "images/orange-coffee.png",
   },
   {
     id: 18,
@@ -136,7 +136,7 @@ export const menuItems = [
     descripcion: "Espresso suave, agua tónica, y una tira de naranja.",
     categoria: "CAFÉS FRÍOS",
     subcategoria: "Exóticos",
-    foto: "CafeHouse/images/espresso-tonic.png",
+    foto: "images/espresso-tonic.png",
   },
   {
     id: 19,
@@ -144,7 +144,7 @@ export const menuItems = [
     descripcion: "Doble espresso pasado por una rodaja de limon y un poco de sal y agua tónica.",
     categoria: "CAFÉS FRÍOS",
     subcategoria: "Exóticos",
-    foto: "CafeHouse/images/espresso-bomb.png",
+    foto: "images/espresso-bomb.png",
   },
   {
     id: 20,
@@ -152,7 +152,7 @@ export const menuItems = [
     descripcion: "Crema de café y cacao en polvo.",
     categoria: "CAFÉS FRÍOS",
     subcategoria: "Exóticos",
-    foto: "CafeHouse/images/crema-de-cafe-italiana.png",
+    foto: "images/crema-de-cafe-italiana.png",
   },
 
   // CAFÉS CALIENTES
@@ -161,42 +161,42 @@ export const menuItems = [
     nombre: "Café Bombón",
     descripcion: "Espresso suave, leche condensada y un toque de leche espumada.",
     categoria: "CAFÉS CALIENTES",
-    foto: "CafeHouse/images/cafe-bombon.png",
+    foto: "images/cafe-bombon.png",
   },
   {
     id: 22,
     nombre: "Café con leche",
     descripcion: "Espresso suave y leche. (Hielo opcional)",
     categoria: "CAFÉS CALIENTES",
-    foto: "CafeHouse/images/cappuccino.png",
+    foto: "images/cappuccino.png",
   },
   {
     id: 23,
     nombre: "Americano",
     descripcion: "Espresso suave y agua caliente.",
     categoria: "CAFÉS CALIENTES",
-    foto: "CafeHouse/images/americano.png",
+    foto: "images/americano.png",
   },
   {
     id: 24,
     nombre: "Mocha",
     descripcion: "Café con chocolate (leche, blanco, negro), leche y espuma.",
     categoria: "CAFÉS CALIENTES",
-    foto: "CafeHouse/images/mocha.png",
+    foto: "images/mocha.png",
   },
   {
     id: 25,
     nombre: "Cappuccino",
     descripcion: "Espresso suave, leche, y abundante espuma.",
     categoria: "CAFÉS CALIENTES",
-    foto: "CafeHouse/images/cappuccino.png",
+    foto: "images/cappuccino.png",
   },
   {
     id: 26,
     nombre: "Café Marocchino",
     descripcion: "Espresso suave, leche espumada, crema de cacao y cacao en polvo.",
     categoria: "CAFÉS CALIENTES",
-    foto: "CafeHouse/images/cafe marocchino.png",
+    foto: "images/cafe marocchino.png",
   },
 
   // OTRAS BEBIDAS
@@ -205,21 +205,21 @@ export const menuItems = [
     nombre: "Matcha Latte",
     descripcion: "Matcha con leche caliente, leche fresca, miel, vainilla y caramelo.",
     categoria: "OTRAS BEBIDAS",
-    foto: "CafeHouse/images/matcha-latte.png",
+    foto: "images/matcha-latte.png",
   },
   {
     id: 28,
     nombre: "Frappé Especial",
     descripcion: "Frappé helado a elegir entre sabor Chocolate (negro/blanco/leche), kinder, Lotus o vainilla.",
     categoria: "OTRAS BEBIDAS",
-    foto: "CafeHouse/images/frappe-especial.png",
+    foto: "images/frappe-especial.png",
   },
   {
     id: 29,
     nombre: "Milkshakes",
     descripcion: "Batido cremoso con sabores a elegir: Vainilla, chocolate (negro/blanco/leche), oreo, caramelo, nocilla o lotus.",
     categoria: "OTRAS BEBIDAS",
-    foto: "CafeHouse/images/milkshake.png",
+    foto: "images/milkshake.png",
   },
 
   // APERITIVOS
@@ -228,34 +228,34 @@ export const menuItems = [
     nombre: "Sándwich Mixto",
     descripcion: "Queso fundido, jamón york de primera calidad y mantequilla dorada al grill.",
     categoria: "APERITIVOS",
-    foto: "CafeHouse/images/sandwich-mixto.png",
+    foto: "images/sandwich-mixto.png",
   },
   {
     id: 31,
     nombre: "Croissant Mixto",
     descripcion: "Croissant de mantequilla relleno de queso fundido y jamón york.",
     categoria: "APERITIVOS",
-    foto: "CafeHouse/images/croissant-mixto.png",
+    foto: "images/croissant-mixto.png",
   },
   {
     id: 32,
     nombre: "Tosta de Jamón y Tomate",
     descripcion: "Pan rústico tostado, jamón ibérico, tomate triturado (opcional) y aceite de oliva virgen extra.",
     categoria: "APERITIVOS",
-    foto: "CafeHouse/images/tosta-de-jamon-y-tomate.png",
+    foto: "images/tosta-de-jamon-y-tomate.png",
   },
   {
     id: 33,
     nombre: "Tabla Variada",
     descripcion: "Selección de quesos curados, fuet, lomo embuchado y almendras tostadas.",
     categoria: "APERITIVOS",
-    foto: "CafeHouse/images/tabla-variada.png",
+    foto: "images/tabla-variada.png",
   },
   {
     id: 34,
     nombre: "Bizcocho Casero",
     descripcion: "Delicioso bizcocho artesano del día, esponjoso y aromático.",
     categoria: "APERITIVOS",
-    foto: "CafeHouse/images/bizcocho-casero.png",
+    foto: "images/bizcocho-casero.png",
   }
 ];
