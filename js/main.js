@@ -85,7 +85,8 @@ function renderMenu() {
         <img 
           src="${item.foto}?v=2" 
           alt="${item.nombre}" 
-          class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+          class="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-500"
+          style="object-position: center center;"
           loading="lazy"
         >
       </div>
