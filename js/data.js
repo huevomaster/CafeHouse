@@ -17,6 +17,14 @@ export const menuItems = [
     foto: "images/spanish-iced-latte.png",
   },
   {
+    id: 3,
+    nombre: "Cookie Cream Iced Latte",
+    descripcion: "Espresso suave, leche fresca y foam de galleta María.",
+    categoria: "CAFÉS FRÍOS",
+    subcategoria: "Clásicos",
+    foto: "images/cookie-cream-iced-latte.png",
+  },
+  {
     id: 4,
     nombre: "Oreo Cream Latte",
     descripcion: "Doble espresso, crema de oreo, leche fresca, galletas oreo, sirope de vainilla.",
