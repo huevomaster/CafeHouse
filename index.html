@@ -103,23 +103,31 @@
 
       <!-- House Favorites Carousel -->
       <section id="favorites-section" class="mb-4" aria-label="Nuestros Favoritos">
-        <div class="flex items-baseline justify-between mb-2.5 px-0.5">
-          <h2 class="font-serif text-sm font-bold text-stone-900 tracking-tight">
-            Nuestros Favoritos
-          </h2>
-          <span class="text-[9px] font-bold text-amber-700 uppercase tracking-widest">House Favorites</span>
-        </div>
-        <!-- Carousel track: last card deliberately peeking -->
-        <div 
-          id="favorites-carousel" 
-          class="flex gap-3 overflow-x-auto no-scrollbar"
-          style="scroll-snap-type: x mandatory; -webkit-overflow-scrolling: touch; padding-right: 1.5rem;"
-          role="list"
-          aria-label="Carrusel de favoritos"
-        >
-          <!-- Cards injected by main.js -->
+        <!-- Warm cream background wrapper -->
+        <div class="fav-section-bg">
+          <div class="flex items-baseline justify-between mb-2.5">
+            <h2 class="font-serif text-sm font-bold text-stone-900 tracking-tight">
+              Nuestros Favoritos
+            </h2>
+            <span class="text-[9px] font-bold text-amber-700 uppercase tracking-widest">House Favorites</span>
+          </div>
+          <!-- Carousel track: last card deliberately peeking -->
+          <div 
+            id="favorites-carousel" 
+            class="flex gap-3 overflow-x-auto no-scrollbar"
+            style="scroll-snap-type: x mandatory; -webkit-overflow-scrolling: touch; padding-right: 1.25rem; margin-right: -1rem;"
+            role="list"
+            aria-label="Carrusel de favoritos"
+          >
+            <!-- Cards injected by main.js -->
+          </div>
+          <!-- Pagination dots -->
+          <div id="fav-dots" class="fav-dots" aria-hidden="true">
+            <!-- Dots injected by main.js -->
+          </div>
         </div>
       </section>
+
 
       <!-- Categories Pills Selector -->
       <nav class="overflow-x-auto no-scrollbar" aria-label="Categorías del menú">

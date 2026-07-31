@@ -181,6 +181,7 @@ resetSearchBtn.addEventListener('click', () => {
 
 // --- House Favorites Carousel ---
 const favoritesCarousel = document.getElementById('favorites-carousel');
+const favDotsContainer = document.getElementById('fav-dots');
 
 function renderFavoritesCarousel() {
   if (!favoritesCarousel) return;
@@ -188,8 +189,11 @@ function renderFavoritesCarousel() {
   const favorites = menuItems.filter(item => item.esFavorito === true);
 
   favoritesCarousel.innerHTML = '';
+  if (favDotsContainer) favDotsContainer.innerHTML = '';
 
-  favorites.forEach(item => {
+  const cards = [];
+
+  favorites.forEach((item, index) => {
     // Determine badge class and label
     const badgeClass = item.etiqueta === 'NOVEDADES'
       ? 'fav-badge fav-badge--novedades'
@@ -200,6 +204,7 @@ function renderFavoritesCarousel() {
     card.className = 'fav-card';
     card.setAttribute('role', 'listitem');
     card.setAttribute('aria-label', item.nombre);
+    card.dataset.index = index;
 
     card.innerHTML = `
       <div class="fav-card__img-wrap">
@@ -218,7 +223,32 @@ function renderFavoritesCarousel() {
 
     card.addEventListener('click', () => openModal(item));
     favoritesCarousel.appendChild(card);
+    cards.push(card);
   });
+
+  // --- Build pagination dots ---
+  if (favDotsContainer && favorites.length > 0) {
+    const dots = favorites.map((_, i) => {
+      const dot = document.createElement('span');
+      dot.className = 'fav-dot' + (i === 0 ? ' active' : '');
+      dot.setAttribute('aria-label', `Tarjeta ${i + 1}`);
+      favDotsContainer.appendChild(dot);
+      return dot;
+    });
+
+    // Update active dot based on scroll position
+    const updateActiveDot = () => {
+      if (cards.length === 0) return;
+      const scrollLeft = favoritesCarousel.scrollLeft;
+      const cardWidth = cards[0].offsetWidth + 12; // 12px = gap (gap-3)
+      const activeIndex = Math.round(scrollLeft / cardWidth);
+      dots.forEach((dot, i) => {
+        dot.classList.toggle('active', i === activeIndex);
+      });
+    };
+
+    favoritesCarousel.addEventListener('scroll', updateActiveDot, { passive: true });
+  }
 }
 
 // --- Initial Render ---
