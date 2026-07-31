@@ -24,14 +24,7 @@ export const menuItems = [
     subcategoria: "Clásicos",
     foto: "images/cookie-cream-iced-latte.png",
   },
-  {
-    id: 4,
-    nombre: "Oreo Cream Latte",
-    descripcion: "Doble espresso, crema de oreo, leche fresca, galletas oreo, sirope de vainilla.",
-    categoria: "CAFÉS FRÍOS",
-    subcategoria: "Clásicos",
-    foto: "images/oreo-cream-latte.png",
-  },
+
   {
     id: 5,
     nombre: "Oreo White Mocha",
@@ -40,14 +33,7 @@ export const menuItems = [
     subcategoria: "Clásicos",
     foto: "images/oreo-white-mocha.png",
   },
-  {
-    id: 6,
-    nombre: "Salted Vanilla Iced Coffee",
-    descripcion: "Espresso suave, agua, sirope de vainilla y vanilla cold foam.",
-    categoria: "CAFÉS FRÍOS",
-    subcategoria: "Clásicos",
-    foto: "images/salted-vanilla-iced-coffee.png",
-  },
+
   {
     id: 7,
     nombre: "Salted Caramel Iced Mocha",
