@@ -269,8 +269,10 @@ function renderFavoritesCarousel() {
 // --- Initial Render ---
 document.addEventListener('DOMContentLoaded', () => {
   renderFavoritesCarousel();
+  toggleFavoritesSection();
   renderMenu();
 });
+
 
 // --- Modal Functionality ---
 const modal = document.getElementById('product-modal');

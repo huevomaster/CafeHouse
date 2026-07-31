@@ -13,7 +13,16 @@
   scrollbar-width: none;
 }
 
+/* Sticky Navigation Bar */
+#sticky-header {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 30;
+}
+
 /* Card & modal images: uniform crop centered on all photos */
+
 #menu-container img,
 #modal-image {
   object-fit: cover;
