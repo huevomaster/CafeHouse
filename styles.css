@@ -34,7 +34,13 @@
 
 /* ===== HOUSE FAVORITES CAROUSEL ===== */
 
+#favorites-section {
+  position: relative;
+  z-index: 1;
+}
+
 /* Warm cream section background */
+
 .fav-section-bg {
   background-color: #F7F3E9;
   border-radius: 1rem;
