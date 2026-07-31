@@ -7,6 +7,8 @@ export const menuItems = [
     categoria: "CAFÉS FRÍOS",
     subcategoria: "Clásicos",
     foto: "images/dalgona-coffee.png",
+    esFavorito: true,
+    etiqueta: "FAVORITOS",
   },
   {
     id: 2,
@@ -23,6 +25,8 @@ export const menuItems = [
     categoria: "CAFÉS FRÍOS",
     subcategoria: "Clásicos",
     foto: "images/cookie-cream-iced-latte.png",
+    esFavorito: true,
+    etiqueta: "NOVEDADES",
   },
 
   {
@@ -191,6 +195,8 @@ export const menuItems = [
     descripcion: "Espresso suave, leche espumada, crema de cacao y cacao en polvo.",
     categoria: "CAFÉS CALIENTES",
     foto: "images/cafe-marocchino.png",
+    esFavorito: true,
+    etiqueta: "FAVORITOS",
   },
 
   // OTRAS BEBIDAS

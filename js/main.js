@@ -179,8 +179,51 @@ resetSearchBtn.addEventListener('click', () => {
   renderMenu();
 });
 
+// --- House Favorites Carousel ---
+const favoritesCarousel = document.getElementById('favorites-carousel');
+
+function renderFavoritesCarousel() {
+  if (!favoritesCarousel) return;
+
+  const favorites = menuItems.filter(item => item.esFavorito === true);
+
+  favoritesCarousel.innerHTML = '';
+
+  favorites.forEach(item => {
+    // Determine badge class and label
+    const badgeClass = item.etiqueta === 'NOVEDADES'
+      ? 'fav-badge fav-badge--novedades'
+      : 'fav-badge fav-badge--favoritos';
+    const badgeLabel = item.etiqueta || 'FAVORITOS';
+
+    const card = document.createElement('div');
+    card.className = 'fav-card';
+    card.setAttribute('role', 'listitem');
+    card.setAttribute('aria-label', item.nombre);
+
+    card.innerHTML = `
+      <div class="fav-card__img-wrap">
+        <span class="${badgeClass}">${badgeLabel}</span>
+        <img
+          src="${item.foto}?v=2"
+          alt="${item.nombre}"
+          loading="lazy"
+        >
+      </div>
+      <div class="fav-card__body">
+        <p class="fav-card__name">${item.nombre}</p>
+        <p class="fav-card__desc">${item.descripcion}</p>
+      </div>
+    `;
+
+    card.addEventListener('click', () => openModal(item));
+    favoritesCarousel.appendChild(card);
+  });
+}
+
 // --- Initial Render ---
 document.addEventListener('DOMContentLoaded', () => {
+  renderFavoritesCarousel();
   renderMenu();
 });
 
