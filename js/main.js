@@ -136,6 +136,17 @@ clearSearchBtn.addEventListener('click', () => {
   searchInput.focus();
 });
 
+// Helper: show/hide the favorites carousel depending on active category
+const favoritesSection = document.getElementById('favorites-section');
+function toggleFavoritesSection() {
+  if (!favoritesSection) return;
+  if (state.activeCategory === 'ALL') {
+    favoritesSection.style.display = '';
+  } else {
+    favoritesSection.style.display = 'none';
+  }
+}
+
 // Category tabs click
 categoriesTabs.addEventListener('click', (e) => {
   const btn = e.target.closest('.category-btn');
@@ -151,6 +162,9 @@ categoriesTabs.addEventListener('click', (e) => {
   // Update state and title
   state.activeCategory = btn.getAttribute('data-category');
   activeCategoryTitle.textContent = getCategoryDisplayTitle(state.activeCategory);
+
+  // Show/hide favorites carousel
+  toggleFavoritesSection();
 
   // Smooth scroll active pill to center
   btn.scrollIntoView({ behavior: 'smooth', inline: 'center', block: 'nearest' });
@@ -176,6 +190,7 @@ resetSearchBtn.addEventListener('click', () => {
     }
   });
 
+  toggleFavoritesSection();
   renderMenu();
 });
 
