@@ -79,8 +79,8 @@
       </div>
     </header>
 
-    <!-- Sticky Navigation, Search, Carousel & Categories -->
-    <div id="sticky-header" class="sticky top-0 z-30 bg-stone-50/98 backdrop-blur-md border-b border-stone-200/60 p-4">
+    <!-- Sticky Navigation & Search -->
+    <div id="sticky-header" class="sticky top-0 z-20 bg-stone-50/95 backdrop-blur-md border-b border-stone-200/60 p-4">
       
       <!-- Search Input Container -->
       <div class="relative w-full mb-3">
@@ -100,32 +100,6 @@
           <i class="fa-solid fa-xmark"></i>
         </button>
       </div>
-
-      <!-- House Favorites Carousel (fijo en cabecera sticky) -->
-      <section id="favorites-section" class="mb-3" aria-label="Nuestros Favoritos">
-        <div class="fav-section-bg">
-          <div class="flex items-baseline justify-between mb-2.5">
-            <h2 class="font-serif text-sm font-bold text-stone-900 tracking-tight">
-              Nuestros Favoritos
-            </h2>
-            <span class="text-[9px] font-bold text-amber-700 uppercase tracking-widest">House Favorites</span>
-          </div>
-          <!-- Carousel track -->
-          <div 
-            id="favorites-carousel" 
-            class="flex gap-3 overflow-x-auto no-scrollbar"
-            style="scroll-snap-type: x mandatory; -webkit-overflow-scrolling: touch; padding-right: 1.25rem; margin-right: -0.5rem;"
-            role="list"
-            aria-label="Carrusel de favoritos"
-          >
-            <!-- Cards injected by main.js -->
-          </div>
-          <!-- Pagination dots -->
-          <div id="fav-dots" class="fav-dots" aria-hidden="true">
-            <!-- Dots injected by main.js -->
-          </div>
-        </div>
-      </section>
 
       <!-- Categories Pills Selector -->
       <nav class="overflow-x-auto no-scrollbar" aria-label="Categorías del menú">
@@ -164,12 +138,39 @@
       </nav>
     </div>
 
+    <!-- House Favorites Carousel (estático arriba, NO sigue al scroll) -->
+    <section id="favorites-section" class="px-4 pt-4 pb-2 relative z-10" aria-label="Nuestros Favoritos">
+      <div class="fav-section-bg">
+        <div class="flex items-baseline justify-between mb-2.5">
+          <h2 class="font-serif text-sm font-bold text-stone-900 tracking-tight">
+            Nuestros Favoritos
+          </h2>
+          <span class="text-[9px] font-bold text-amber-700 uppercase tracking-widest">House Favorites</span>
+        </div>
+        <!-- Carousel track -->
+        <div 
+          id="favorites-carousel" 
+          class="flex gap-3 overflow-x-auto no-scrollbar"
+          style="scroll-snap-type: x mandatory; -webkit-overflow-scrolling: touch; padding-right: 1.25rem; margin-right: -0.5rem;"
+          role="list"
+          aria-label="Carrusel de favoritos"
+        >
+          <!-- Cards injected by main.js -->
+        </div>
+        <!-- Pagination dots -->
+        <div id="fav-dots" class="fav-dots" aria-hidden="true">
+          <!-- Dots injected by main.js -->
+        </div>
+      </div>
+    </section>
+
     <!-- Active Category Banner -->
-    <div class="px-4 pt-4 pb-2">
+    <div class="px-4 pt-2 pb-2">
       <h2 id="active-category-title" class="font-serif text-xl font-bold text-amber-950 border-b border-amber-900/10 pb-2">
         Todos los productos
       </h2>
     </div>
+
 
 
 
